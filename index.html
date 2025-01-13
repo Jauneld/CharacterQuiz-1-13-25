@@ -1,1 +1,51 @@
-Sup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairly OddParents Character Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Which Fairly OddParents Character Are You?</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <label>What is your age group?</label>
+                <select id="age-group">
+                    <option value="none">Choose</option>
+                    <option value="under18">Under 18</option>
+                    <option value="18-30">18-30</option>
+                    <option value="over30">Over 30</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>Pick your favorite color:</label>
+                <select id="color-choice">
+                    <option value="none">Choose</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>What’s your go-to meal?</label>
+                <select id="meal-choice">
+                    <option value="none">Choose</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="salad">Salad</option>
+                    <option value="burger">Burger</option>
+                </select>
+            </div>
+            <button type="button" id="submit-quiz">Find Out!</button>
+        </form>
+        <div id="result-container" style="display:none;">
+            <h2>You are: <span id="character-name"></span>!</h2>
+            <img id="character-image" src="" alt="Character Image" style="display:none; max-width: 100%; border-radius: 10px;">
+            <p id="character-description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
