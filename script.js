@@ -2,36 +2,36 @@ $(document).ready(function () {
     const results = {
         under18: {
             blue: {
-                pizza: ["Timmy Turner", "You’re energetic, curious, and always dreaming big—even if it gets you in trouble.", "timmy.png"],
-                salad: ["Trixie Tang", "You’re polished and confident, with a flair for being admired by everyone.", "trixie.png"],
-                burger: ["Chester McBadbat", "You’re loyal, down-to-earth, and always ready to support your friends.", "chester.png"]
+                pizza: ["Timmy Turner", "You’re energetic, curious, and always dreaming big—even if it gets you in trouble.", "images/timmy.jpg"],
+                salad: ["Trixie Tang", "You’re polished and confident, with a flair for being admired by everyone.", "images/trixie.jpg"],
+                burger: ["Chester McBadbat", "You’re loyal, down-to-earth, and always ready to support your friends.", "images/chester.jpg"]
             },
             red: {
-                pizza: ["Vicky", "You have a mischievous streak and like to be in control—but there’s more to you!", "vicky.png"],
-                salad: ["Wanda", "You’re thoughtful, nurturing, and always looking out for others.", "wanda.png"],
-                burger: ["Cosmo", "You’re funny, whimsical, and the life of the party (sometimes without realizing it).", "cosmo.png"]
+                pizza: ["Vicky", "You have a mischievous streak and like to be in control—but there’s more to you!", "images/vicky.jpg"],
+                salad: ["Wanda", "You’re thoughtful, nurturing, and always looking out for others.", "images/wanda.jpg"],
+                burger: ["Cosmo", "You’re funny, whimsical, and the life of the party (sometimes without realizing it).", "images/cosmo.jpg"]
             },
             green: {
-                pizza: ["Cosmo", "You’re quirky, playful, and always ready for an adventure.", "cosmo.png"],
-                salad: ["Timmy Turner", "You’re inventive, resourceful, and ready to find solutions to any problem.", "timmy.png"],
-                burger: ["Vicky", "You’ve got a bold personality, and people never forget you!", "vicky.png"]
+                pizza: ["Cosmo", "You’re quirky, playful, and always ready for an adventure.", "images/cosmo.jpg"],
+                salad: ["Timmy Turner", "You’re inventive, resourceful, and ready to find solutions to any problem.", "images/timmy.jpg"],
+                burger: ["Vicky", "You’ve got a bold personality, and people never forget you!", "images/vicky.jpg"]
             }
         },
         "18-30": {
             blue: {
-                pizza: ["Wanda", "You’re a balanced mix of fun and responsibility, with a deep love for family.", "wanda.png"],
-                salad: ["Trixie Tang", "You’re stylish, driven, and focused on making a good impression.", "trixie.png"],
-                burger: ["Chester McBadbat", "You’re laid-back, fun, and know how to enjoy life’s little things.", "chester.png"]
+                pizza: ["Wanda", "You’re a balanced mix of fun and responsibility, with a deep love for family.", "images/wanda.jpg"],
+                salad: ["Trixie Tang", "You’re stylish, driven, and focused on making a good impression.", "images/trixie.jpg"],
+                burger: ["Chester McBadbat", "You’re laid-back, fun, and know how to enjoy life’s little things.", "images/chester.jpg"]
             },
             red: {
-                pizza: ["Cosmo", "You’re spontaneous, fun-loving, and full of surprises!", "cosmo.png"],
-                salad: ["Wanda", "You’re dependable, caring, and always keep others grounded.", "wanda.png"],
-                burger: ["Timmy Turner", "You’re ambitious, a little rebellious, and always looking for something exciting.", "timmy.png"]
+                pizza: ["Cosmo", "You’re spontaneous, fun-loving, and full of surprises!", "images/cosmo.jpg"],
+                salad: ["Wanda", "You’re dependable, caring, and always keep others grounded.", "images/wanda.jpg"],
+                burger: ["Timmy Turner", "You’re ambitious, a little rebellious, and always looking for something exciting.", "images/timmy.jpg"]
             },
             green: {
-                pizza: ["Trixie Tang", "You’re creative, smart, and love making bold choices.", "trixie.png"],
-                salad: ["Wanda", "You’re supportive, nurturing, and a natural leader in any group.", "wanda.png"],
-                burger: ["Cosmo", "You’ve got a free spirit and a wonderful sense of humor.", "cosmo.png"]
+                pizza: ["Trixie Tang", "You’re creative, smart, and love making bold choices.", "images/trixie.jpg"],
+                salad: ["Wanda", "You’re supportive, nurturing, and a natural leader in any group.", "images/wanda.jpg"],
+                burger: ["Cosmo", "You’ve got a free spirit and a wonderful sense of humor.", "images/cosmo.jpg"]
             }
         },
         over30: {
