@@ -1,0 +1,92 @@
+body {
+    font-family: "Comic Sans MS", sans-serif; /* Playful font style */
+    margin: 0;
+    padding: 0;
+    background-color: #FFEDF5; /* Light pink background inspired by Wanda */
+    color: #2E2C56; /* Dark purple for text inspired by Timmy’s hat */
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #D9F7BE; /* Light green inspired by Cosmo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    border: 5px solid #FFD700; /* Bright yellow border inspired by the star wands */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FF69B4; /* Hot pink for a magical pop */
+    margin-bottom: 20px;
+}
+
+.question {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #2E2C56;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #FF69B4; /* Pink border */
+    border-radius: 10px;
+    background-color: #FFF8DC; /* Creamy yellow background */
+    font-size: 1em;
+    color: #2E2C56;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #FFD700; /* Bright yellow */
+    color: #2E2C56; /* Dark text for contrast */
+    font-weight: bold;
+    border: 3px solid #FF69B4; /* Pink border */
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Pink hover effect */
+    color: white;
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFF8DC; /* Creamy yellow */
+    border-radius: 15px;
+    border: 3px solid #FFD700; /* Yellow border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#character-name {
+    color: #FF69B4; /* Highlight character name in pink */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#character-description {
+    color: #2E2C56; /* Dark text for readability */
+    font-size: 1.2em;
+}
+
+#character-image {
+    margin-top: 15px;
+    max-height: 300px;
+    border: 3px solid #FFD700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
