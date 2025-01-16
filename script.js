@@ -8,11 +8,11 @@ $(document).ready(function () {
         },
           orange: {
             pizza: ["Mark Chang", "You’re adventurous, outgoing, and love exploring new worlds!", "images/mark.jpg"],
-            salad: ["Sanjay", "You’re cheerful, kind, and a loyal companion.", "images/sanjay.jpg"],
+            salad: ["Sanjay", "You’re cheerful, kind, and a loyal companion.", "images/sanjay.png"],
             burger: ["Elmer", "You’re quirky, unique, and embrace who you are with pride.", "images/elmer.jpg"]
         },
         yellow: {
-            pizza: ["Chloe Carmichael", "You’re bright, optimistic, and always bring sunshine to others’ lives.", "images/chloe.jpg"],
+            pizza: ["Chloe Carmichael", "You’re bright, optimistic, and always bring sunshine to others’ lives.", "images/chloe.png"],
             salad: ["Sparky", "You’re energetic, playful, and always ready for a fun time.", "images/sparky.jpg"],
             burger: ["Mr. Crocker", "You’re a bit eccentric, but your passion is unmatched.", "images/crocker.jpg"]
         },
@@ -49,7 +49,7 @@ $(document).ready(function () {
                 burger: ["Elmer", "You embrace challenges, and your unique approach always stands out.", "images/elmer.jpg"]
             },
             yellow: {
-                pizza: ["Chloe Carmichael", "You’re optimistic, hardworking, and light up any room you walk into.", "images/chloe.jpg"],
+                pizza: ["Chloe Carmichael", "You’re optimistic, hardworking, and light up any room you walk into.", "images/chloe.png"],
                 salad: ["Sparky", "You’re active, loyal, and always bring energy to your friends and work.", "images/sparky.jpg"],
                 burger: ["Mr. Crocker", "You’re a bit intense, but your passion makes you unforgettable.", "images/crocker.jpg"]
             },
@@ -86,7 +86,7 @@ $(document).ready(function () {
                 burger: ["Elmer", "You’re resilient, witty, and your unique personality shines through.", "images/elmer.jpg"]
             },
             yellow: {
-                pizza: ["Chloe Carmichael", "You’re driven, optimistic, and always ready to embrace new opportunities.", "images/chloe.jpg"],
+                pizza: ["Chloe Carmichael", "You’re driven, optimistic, and always ready to embrace new opportunities.", "images/chloe.png"],
                 salad: ["Sparky", "You’re vibrant, enthusiastic, and bring laughter to any group.", "images/sparky.jpg"],
                 burger: ["Mr. Crocker", "You’re eccentric and passionate about what you believe in.", "images/crocker.jpg"]
             },
